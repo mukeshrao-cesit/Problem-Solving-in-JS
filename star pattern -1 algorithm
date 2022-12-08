@@ -1,9 +1,0 @@
-step 1 - create an function 
-step 2 - create an variable named as star
-step 3 - create an for loop with the range of the value
-step 4 - create an another for loop inside the above loop
-step 5 - check the condition of star and impletent it with i and j
-step 6.1 - if the condition is true, add an star in the variable
-step 6.2 - else add an space in the variable
-step 7 - after inner loop is completed add an new line command to the variable
-step 8 - after the outer loop is completed return the variable.
