@@ -19,7 +19,7 @@ function findKthSmallestOrLargestV2(array, value) {
       }
     }
   }
-  return array[value - 1] + " " + array[Int8Array.length - 1 - value];
+  return array[value - 1] + " " + array[array.length - 1 - value];
 }
 
 console.log(findKthSmallestOrLargest([2, 1, 4, 3, 6, 5, 7], 3));
