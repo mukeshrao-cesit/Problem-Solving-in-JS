@@ -1,3 +1,7 @@
+//Algorithm
+//step 1 - sort the array
+//step 2 - get the array element in index of value and array.length-value-1 and print it.
+
 function findKthSmallestOrLargest(array, value) {
   let sortedArray = array.sort();
   return sortedArray[value - 1] + " " + sortedArray[value.length - 1 - value];
