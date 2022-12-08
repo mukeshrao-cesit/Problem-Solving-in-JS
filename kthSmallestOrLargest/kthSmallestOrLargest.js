@@ -4,7 +4,9 @@
 
 function findKthSmallestOrLargest(array, value) {
   let sortedArray = array.sort();
-  return sortedArray[value - 1] + " " + sortedArray[value.length - 1 - value];
+  return (
+    sortedArray[value - 1] + " " + sortedArray[sortedArray.length - 1 - value]
+  );
 }
 
 function findKthSmallestOrLargestV2(array, value) {
@@ -17,7 +19,7 @@ function findKthSmallestOrLargestV2(array, value) {
       }
     }
   }
-  return array[value - 1] + " " + array[value.length - 1 - value];
+  return array[value - 1] + " " + array[Int8Array.length - 1 - value];
 }
 
 console.log(findKthSmallestOrLargest([2, 1, 4, 3, 6, 5, 7], 3));
