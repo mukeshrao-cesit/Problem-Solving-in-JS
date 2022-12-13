@@ -1,13 +1,9 @@
 import React from "react";
-
+import { Banner1 } from "./Banner1";
 export const Body = () => {
-  const styles = {
-    color: "white",
-    backgroundColor: "red",
-  };
   return (
     <div>
-      <h1 style={styles}>Im Body</h1>
+      <Banner1 />
     </div>
   );
 };
