@@ -33,7 +33,7 @@ export const Header = () => {
             <li>
               <a>Contact</a>
             </li>
-            <li>
+            <li className="getStartedLink">
               <a>Get Started</a>
             </li>
           </ul>
