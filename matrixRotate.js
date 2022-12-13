@@ -5,19 +5,19 @@ const input = [
   [15, 14, 12, 16],
 ];
 
-function solve() {
-  let temp = [];
+function solve(input) {
+  let mainArray = [];
   for (let i = 0; i < input.length; i++) {
-    let temp2 = [];
+    let innerArray = [];
     for (let j = input.length - 1; j >= 0; j--) {
-      temp2.push(input[j][i]);
+      innerArray.push(input[j][i]);
     }
-    temp.push(temp2);
+    mainArray.push(innerArray);
   }
-  console.log(temp);
+  return mainArray;
 }
 
-solve();
+console.log(solve(input));
 
 //00 01 02
 //10 11 12

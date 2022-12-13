@@ -11,7 +11,10 @@ export const Banner1 = () => {
           </h2>
         </div>
         <div className="banner-1-image">
-          <img src="" alt="banner-1-image" />
+          <img
+            src="Vite-React\sample-vite-app\src\Body\heroImg.png"
+            alt="banner-1-image"
+          />
         </div>
       </div>
     </div>
