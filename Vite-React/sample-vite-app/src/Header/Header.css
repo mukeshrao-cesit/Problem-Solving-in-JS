@@ -1,0 +1,12 @@
+.Navbar-container {
+  display: flex;
+}
+.Navbar-logo h1 {
+  margin: 0;
+}
+.Navbar-lists ul {
+  display: flex;
+}
+.Navbar-lists ul li {
+  list-style: none;
+}
